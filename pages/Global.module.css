@@ -1,0 +1,96 @@
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+.tabPanel {
+    flex: none;
+    flex-grow: 1;
+}
+.tabList {
+    background-color: black;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    padding: 10px 0 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #252525;
+
+}
+.activeTab {
+    border-bottom: 2px solid white;
+    border-radius: 0;
+
+}
+.tabs {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.accordionItem {
+    background-color: black;
+    border-radius: 0;
+    border-bottom: 1px solid #252525;
+    padding: 16px 8px 16px 16px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #111;
+    }
+
+}
+
+
+.accordionControl {
+    &:hover {
+        background-color: #111;
+    }
+}
+
+
+.archive {
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.archiveHovered {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+
+
+
+.allArchive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #252525;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+
+.badge {
+    border: 1px solid #252525;
+}
+
+
+
+
+
+
